@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Jayesh Kansal</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-follower" id="cursorFollower" aria-hidden="true"></div>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo"><span class="logo-mark">JK</span><span class="logo-dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link"><span class="nav-num">01</span>Home</a></li>
+      <li><a href="experience.html" class="nav-link"><span class="nav-num">02</span>Experience</a></li>
+      <li><a href="projects.html" class="nav-link active"><span class="nav-num">03</span>Projects</a></li>
+      <li><a href="contact.html" class="nav-link"><span class="nav-num">04</span>Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="contact.html" class="nav-cta">Let's Talk</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="eyebrow reveal">Portfolio</div>
+      <h1 class="page-title reveal">Projects &amp;<br/><em>Initiatives</em></h1>
+      <p class="page-sub reveal">Things I've built, launched, or co-founded — from live businesses to community platforms.</p>
+    </div>
+    <div class="page-header-line" aria-hidden="true"></div>
+  </header>
+
+  <!-- PROJECTS GRID -->
+  <section class="section projects-section">
+    <div class="container">
+
+      <!-- Featured card: RelaxEra -->
+      <article class="project-card project-hero reveal">
+        <div class="project-top">
+          <span class="project-type">Live Business</span>
+          <span class="project-year mono">2025 – 2026</span>
+        </div>
+        <h2 class="project-name">RelaxEra</h2>
+        <p class="project-sub">D2C Wellness Brand · Founder</p>
+        <p class="project-desc">Founded and scaled a multi-product direct-to-consumer wellness brand from zero to ₹11L+ revenue in a single month. Managed the full stack: product curation, supplier negotiations, Meta ad campaigns (1.5L+ budget), Shopify storefront, and end-to-end logistics — entirely solo.</p>
+        <div class="project-metrics">
+          <div class="metric"><span class="metric-val">₹11L+</span><span class="metric-lbl">Revenue · Month 1</span></div>
+          <div class="metric"><span class="metric-val">5–7x</span><span class="metric-lbl">Sustained ROAS</span></div>
+          <div class="metric"><span class="metric-val">₹80k+</span><span class="metric-lbl">Peak Daily Revenue</span></div>
+        </div>
+        <div class="work-tags">
+          <span>D2C</span><span>Meta Ads</span><span>Shopify</span><span>Supply Chain</span><span>Performance Marketing</span>
+        </div>
+        <div class="card-glow card-glow-gold"></div>
+      </article>
+
+      <!-- Grid of 2 -->
+      <div class="project-pair">
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-type">Live Project</span>
+            <span class="project-year mono">2024</span>
+          </div>
+          <h2 class="project-name">Parallel Universe RP</h2>
+          <p class="project-sub">GTA RP Server · Co-Founder</p>
+          <p class="project-desc">Co-founded a custom GTA roleplay server with bespoke scripting, automated moderation, and Discord-based community engagement. Built member management flows using AI bots, custom commands, and API integrations.</p>
+          <div class="work-tags">
+            <span>Community Building</span><span>AI Bots</span><span>Discord APIs</span><span>Custom Scripting</span>
+          </div>
+          <div class="card-glow"></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-type">Freelance</span>
+            <span class="project-year mono">2021 – present</span>
+          </div>
+          <h2 class="project-name">PC Building &amp; Repair</h2>
+          <p class="project-sub">Custom Builds · Ongoing</p>
+          <p class="project-desc">Built and optimised custom PCs for personal and client use, focusing on performance-per-rupee, component compatibility, and thermal management. Grew a repeat client base through referrals.</p>
+          <div class="work-tags">
+            <span>PC Hardware</span><span>Performance Tuning</span><span>Client Work</span>
+          </div>
+          <div class="card-glow"></div>
+        </article>
+      </div>
+
+      <!-- Certifications Table -->
+      <div class="certs-block reveal">
+        <div class="eyebrow" style="margin-bottom:1.5rem">Certifications</div>
+        <h2 class="section-title" style="margin-bottom:2.5rem">Courses &amp; <em>Credentials</em></h2>
+        <div class="table-wrap">
+          <table class="certs-table">
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Provider</th>
+                <th>Year</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Website Development (HTML, CSS, JS)</td>
+                <td>IIM Bangalore · IIMBx</td>
+                <td class="mono">2025</td>
+                <td><span class="badge-wip">In Progress</span></td>
+              </tr>
+              <tr>
+                <td>Financial Statement Analysis</td>
+                <td>Self-directed</td>
+                <td class="mono">2024</td>
+                <td><span class="badge-done">Complete</span></td>
+              </tr>
+              <tr>
+                <td>Tally ERP Certified</td>
+                <td>Tally Education</td>
+                <td class="mono">2023</td>
+                <td><span class="badge-done">Complete</span></td>
+              </tr>
+              <tr>
+                <td>Odoo ERP</td>
+                <td>Odoo</td>
+                <td class="mono">2024</td>
+                <td><span class="badge-done">Complete</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-cta-band">
+      <div class="container footer-cta-inner">
+        <p class="footer-cta-text">Let's build <em>something great.</em></p>
+        <a href="contact.html" class="btn btn-primary btn-lg">Start a Conversation</a>
+      </div>
+    </div>
+    <div class="footer-base">
+      <div class="container footer-base-inner">
+        <div class="footer-brand"><span class="footer-logo">JK<span class="accent-dot">.</span></span><span class="footer-sub">Entrepreneurship · Consulting · Finance</span></div>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a><a href="experience.html">Experience</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; 2025 Jayesh Kansal</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
