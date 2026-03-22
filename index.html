@@ -3,251 +3,258 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jayesh Kansal — Entrepreneur · Consultant · Finance</title>
+  <title>Jayesh Kansal — Resume</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div class="noise-overlay" aria-hidden="true"></div>
-  <div class="cursor" id="cursor" aria-hidden="true"></div>
-  <div class="cursor-follower" id="cursorFollower" aria-hidden="true"></div>
 
-  <!-- NAV -->
-  <nav class="navbar" id="navbar">
-    <a href="index.html" class="nav-logo">
-      <span class="logo-mark">JK</span><span class="logo-dot">.</span>
-    </a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="nav-link active"><span class="nav-num">01</span>Home</a></li>
-      <li><a href="experience.html" class="nav-link"><span class="nav-num">02</span>Experience</a></li>
-      <li><a href="projects.html" class="nav-link"><span class="nav-num">03</span>Projects</a></li>
-      <li><a href="contact.html" class="nav-link"><span class="nav-num">04</span>Contact</a></li>
-    </ul>
-    <div class="nav-right">
-      <a href="contact.html" class="nav-cta">Let's Talk</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-        <span></span><span></span>
-      </button>
-    </div>
-  </nav>
+  <main class="page">
 
-  <!-- HERO -->
-  <header class="hero" id="hero">
-    <div class="hero-bg" aria-hidden="true">
-      <div class="hero-ring r1"></div>
-      <div class="hero-ring r2"></div>
-      <div class="hero-ring r3"></div>
-      <div class="dot-grid"></div>
-    </div>
+    <!-- ══════════════════════════════════════════
+         HEADER
+    ══════════════════════════════════════════ -->
+    <header class="resume-header">
+      <div class="photo-wrap">
+        <img src="assets/images/jayesh.jpg" alt="Jayesh Kansal" class="photo" />
+      </div>
+      <h1 class="name">Jayesh Kansal</h1>
+      <p class="contact-line">
+        <a href="mailto:jayesh@cospire.in">jayesh@cospire.in</a>
+        <span class="divider">|</span>
+        +91 83293 25205
+        <span class="divider">|</span>
+        <a href="https://linkedin.com/in/jayeshkansal" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+      <p class="tagline"><em>Passionate about Entrepreneurship &amp; Consulting with a knack for Finance</em></p>
+    </header>
 
-    <div class="hero-inner container">
-      <div class="hero-content">
-        <div class="hero-badge reveal">
-          <span class="pulse-dot"></span>Available for opportunities
-        </div>
-        <h1 class="hero-name reveal">
-          <span class="name-first">Jayesh</span>
-          <span class="name-last">Kansal</span>
-        </h1>
-        <p class="hero-tags reveal">
-          <span>Entrepreneur</span><span class="sep">·</span>
-          <span>Consultant</span><span class="sep">·</span>
-          <span>Finance</span>
-        </p>
-        <p class="hero-bio reveal">Founding brands, scaling operations, and structuring deals — all before graduating.</p>
-        <div class="hero-actions reveal">
-          <a href="experience.html" class="btn btn-primary">
-            View Experience
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 7.5H13M13 7.5L8 2.5M13 7.5L8 12.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-          <a href="contact.html" class="btn btn-ghost">Get in Touch</a>
-        </div>
-        <div class="scroll-hint reveal" aria-hidden="true">
-          <div class="scroll-line-wrap"><div class="scroll-line-inner"></div></div>
-          <span class="mono">scroll</span>
-        </div>
-      </div>
+    <!-- ══════════════════════════════════════════
+         EDUCATION
+    ══════════════════════════════════════════ -->
+    <section class="resume-section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="section-body">
 
-      <figure class="hero-photo-wrap reveal">
-        <div class="photo-frame">
-          <img src="assets/images/jayesh.jpg" alt="Jayesh Kansal" class="photo-img" />
-          <div class="photo-grain"></div>
-        </div>
-        <div class="photo-deco" aria-hidden="true"></div>
-        <div class="photo-tag mono">MU '29 · IIM-B '28</div>
-      </figure>
-    </div>
-
-    <div class="marquee-wrap" aria-hidden="true">
-      <div class="marquee-track">
-        <span>Entrepreneurship</span><em>✦</em><span>Consulting</span><em>✦</em>
-        <span>Finance</span><em>✦</em><span>Operations</span><em>✦</em>
-        <span>D2C</span><em>✦</em><span>Strategy</span><em>✦</em>
-        <span>Performance Marketing</span><em>✦</em><span>Fundraising</span><em>✦</em>
-        <span>Entrepreneurship</span><em>✦</em><span>Consulting</span><em>✦</em>
-        <span>Finance</span><em>✦</em><span>Operations</span><em>✦</em>
-        <span>D2C</span><em>✦</em><span>Strategy</span><em>✦</em>
-        <span>Performance Marketing</span><em>✦</em><span>Fundraising</span><em>✦</em>
-      </div>
-    </div>
-  </header>
-
-  <!-- ABOUT -->
-  <section class="section about-section" id="about">
-    <div class="container about-grid">
-      <div class="about-left">
-        <div class="eyebrow reveal">About Me</div>
-        <h2 class="section-title reveal">Building<br/>ventures,<br/><em>driving results.</em></h2>
-      </div>
-      <div class="about-right">
-        <p class="about-lead reveal">I'm a student at <strong>Masters' Union</strong> &amp; <strong>IIM Bangalore</strong> — but more importantly, I've spent the last few years actually building things.</p>
-        <p class="about-body reveal">From founding a D2C wellness brand that hit ₹11L in its first month, to leading a 14-member team at a fast-growing edtech startup, to raising ₹6L+ through OFCD instruments — I operate where strategy meets execution.</p>
-        <p class="about-body reveal">I thrive on zero-to-one problems. Give me a blank canvas and a goal, and I'll build the roadmap.</p>
-        <div class="tag-cloud reveal">
-          <span>D2C Founder</span><span>Operations Lead</span><span>Case Competitor</span><span>Dean's List</span><span>NSS Leader</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STATS -->
-  <section class="stats-section">
-    <div class="stats-inner">
-      <div class="stat-card reveal">
-        <div class="stat-value"><span class="count-up" data-target="11">0</span><span class="stat-sym">L+</span></div>
-        <div class="stat-lbl">Revenue in Month 1</div>
-        <div class="stat-src mono">RelaxEra · D2C Brand</div>
-      </div>
-      <div class="stat-sep" aria-hidden="true"></div>
-      <div class="stat-card reveal">
-        <div class="stat-value"><span class="count-up" data-target="250">0</span><span class="stat-sym">+</span></div>
-        <div class="stat-lbl">Applicants Screened</div>
-        <div class="stat-src mono">Cospire · Founder's Office</div>
-      </div>
-      <div class="stat-sep" aria-hidden="true"></div>
-      <div class="stat-card reveal">
-        <div class="stat-value"><span class="count-up" data-target="94">0</span><span class="stat-sym"></span></div>
-        <div class="stat-lbl">Teams Beaten</div>
-        <div class="stat-src mono">Ashoka M&A · 1st Place</div>
-      </div>
-      <div class="stat-sep" aria-hidden="true"></div>
-      <div class="stat-card reveal">
-        <div class="stat-value"><span class="count-up" data-target="500">0</span><span class="stat-sym">+</span></div>
-        <div class="stat-lbl">Clients Powered</div>
-        <div class="stat-src mono">SAMSONS · Post-Handover</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EDUCATION -->
-  <section class="section edu-section" id="education">
-    <div class="container">
-      <div class="eyebrow reveal">Education</div>
-      <h2 class="section-title reveal">Academic<br/><em>Foundation</em></h2>
-      <div class="edu-list">
-        <article class="edu-card reveal">
-          <div class="edu-idx mono">01</div>
-          <div class="edu-body">
-            <div class="edu-row">
-              <h3 class="edu-school">Masters' Union</h3>
-              <span class="edu-year mono">2025 – 2029</span>
-            </div>
-            <p class="edu-deg">UG Programme · <strong>Technology &amp; Business Management</strong></p>
-            <p class="edu-loc">Gurugram</p>
-            <div class="edu-pills"><span>🏅 Dean's List · Sem 1</span></div>
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period">2025–2029</span>
           </div>
-          <div class="card-glow"></div>
-        </article>
-        <article class="edu-card reveal">
-          <div class="edu-idx mono">02</div>
-          <div class="edu-body">
-            <div class="edu-row">
-              <h3 class="edu-school">IIM Bangalore</h3>
-              <span class="edu-year mono">2025 – 2028</span>
-            </div>
-            <p class="edu-deg">BBA · <strong>Digital Business &amp; Entrepreneurship</strong></p>
-            <p class="edu-loc">Bangalore</p>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Masters' Union</strong></p>
+            <p class="entry-detail">Undergraduate Programme in <strong>Technology &amp; Business Management</strong></p>
+            <ul class="bullets">
+              <li>Achieved Dean's List in Semester 1</li>
+            </ul>
           </div>
-          <div class="card-glow"></div>
-        </article>
-        <article class="edu-card reveal">
-          <div class="edu-idx mono">03</div>
-          <div class="edu-body">
-            <div class="edu-row">
-              <h3 class="edu-school">Ness Wadia College</h3>
-              <span class="edu-year mono">2023 – 2025</span>
-            </div>
-            <p class="edu-deg">Class 12 · <strong>87%</strong></p>
-            <p class="edu-loc">Pune</p>
-            <div class="edu-pills"><span>♟ Chess Captain · District Level</span></div>
-          </div>
-          <div class="card-glow"></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="section skills-section" id="skills">
-    <div class="container">
-      <div class="eyebrow reveal">Skills &amp; Expertise</div>
-      <h2 class="section-title reveal">What I<br/><em>Bring</em></h2>
-      <div class="skills-grid reveal">
-        <div class="skill-row">
-          <div class="skill-cat">Finance &amp; Accounting</div>
-          <div class="skill-pills">
-            <span>Tally ERP</span><span>Odoo ERP</span><span>Financial Statements</span><span>OFCD Structuring</span><span>Fund Management</span>
+          <div class="entry-right">
+            <span class="entry-location">Gurugram</span>
           </div>
         </div>
-        <div class="skill-row">
-          <div class="skill-cat">Sales &amp; Marketing</div>
-          <div class="skill-pills">
-            <span>SQL Lead Mgmt</span><span>Meta Ads</span><span>ROAS Optimisation</span><span>Market Research</span><span>Social Media Strategy</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <div class="skill-cat">Operations</div>
-          <div class="skill-pills">
-            <span>Talent Acquisition</span><span>Onboarding</span><span>Vendor Coordination</span><span>Logistics</span><span>Process Optimisation</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <div class="skill-cat">Technology</div>
-          <div class="skill-pills">
-            <span>PC Hardware &amp; AI</span><span>Discord Bots &amp; APIs</span><span>GTA RP Scripting</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <div class="skill-cat">Personal</div>
-          <div class="skill-pills">
-            <span>♟ Chess</span><span>🏊 Swimming</span><span>📈 Investing</span><span>✈️ Travelling</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-cta-band">
-      <div class="container footer-cta-inner">
-        <p class="footer-cta-text">Let's build <em>something great.</em></p>
-        <a href="contact.html" class="btn btn-primary btn-lg">Start a Conversation</a>
-      </div>
-    </div>
-    <div class="footer-base">
-      <div class="container footer-base-inner">
-        <div class="footer-brand"><span class="footer-logo">JK<span class="accent-dot">.</span></span><span class="footer-sub">Entrepreneurship · Consulting · Finance</span></div>
-        <nav class="footer-nav">
-          <a href="index.html">Home</a><a href="experience.html">Experience</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a>
-        </nav>
-        <p class="footer-copy">&copy; 2025 Jayesh Kansal</p>
-      </div>
-    </div>
-  </footer>
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period">2025–2028</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Indian Institute of Management, Bangalore</strong></p>
+            <p class="entry-detail">Bachelors in Business Administration, <strong>Digital Business &amp; Entrepreneurship</strong></p>
+          </div>
+          <div class="entry-right">
+            <span class="entry-location">Bangalore</span>
+          </div>
+        </div>
 
-  <script src="assets/js/main.js"></script>
+        <div class="entry entry-last">
+          <div class="entry-left">
+            <span class="entry-period">2023–2025</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Ness Wadia College of Commerce</strong></p>
+            <p class="entry-detail">Class 12: <strong>87%</strong></p>
+            <ul class="bullets">
+              <li>Represented College's Chess Team at District Level <strong>captaining a team of 5</strong></li>
+            </ul>
+          </div>
+          <div class="entry-right">
+            <span class="entry-location">Pune</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         WORK EXPERIENCE
+    ══════════════════════════════════════════ -->
+    <section class="resume-section" id="experience">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="section-body">
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period">Dec '25 –<br/>Feb '26</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Founder</strong> | <a href="#" class="inline-link">RelaxEra</a></p>
+            <ul class="bullets">
+              <li>Generated <strong>₹11L+ revenue in 1 month</strong> (scaling 10L in just 20 days) by <strong>founding</strong> and operating a multi-product D2C wellness brand</li>
+              <li>Achieved a <strong>sustained ROAS between 5–7</strong> and <strong>₹80k+ peak daily revenue</strong> by managing a <strong>1.5L+ ad budget</strong> on Meta</li>
+              <li>Owned <strong>end-to-end execution</strong> across product selection, supplier negotiations, website development, store setup &amp; logistics</li>
+            </ul>
+          </div>
+          <div class="entry-right">
+            <span class="entry-location">Gurugram</span>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period">Aug '25 –<br/>Apr '26</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Founder's Office,</strong> <a href="https://cospire.in" target="_blank" rel="noopener" class="inline-link">Cospire</a></p>
+            <ul class="bullets">
+              <li><strong>Built and led a 14-member team</strong> across aptitude vertical, junior management, and product engineering (AI/automation), <strong>hiring talent from top institutes including IIT Bombay and IIM Indore</strong></li>
+              <li><strong>Owned the full talent lifecycle</strong> including sourcing, hiring, onboarding, target setting, performance reviews, compensation structuring, and leadership reporting over a <strong>6-month operating cycle</strong></li>
+              <li>Owned end-to-end talent sourcing and evaluation for content and mentor roles, conducting outreach across <strong>50+ colleges</strong> and shortlisting top candidates through multi-round screening from <strong>250+ applicants</strong></li>
+              <li>Led market research and strategic planning for new verticals and revenue streams, identifying high-potential segments and executing <strong>50+ strategic conversations</strong> with peer brands and potential partnerships</li>
+            </ul>
+          </div>
+          <div class="entry-right">
+            <span class="entry-location">Gurugram</span>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period">Nov '24 –<br/>Sep '25</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Business &amp; Finance Head, SAMSONS</strong></p>
+            <ul class="bullets">
+              <li>Raised <strong>₹6+ lakhs</strong> in Optionally Fully Convertible Debenture (OFCD) through strategic pitching, enabling Samsons' expansion from one to two profitable branches</li>
+              <li>Closed <strong>85% of 200+ Sales Qualified Leads</strong> (SQLs), driving consistent revenue growth while establishing standardized pricing, practices, and follow-up systems</li>
+              <li>Trained 3 new team members and built &amp; implemented operational and sales processes that streamlined workflows, and continue to power over <strong>500 clients post-handover</strong></li>
+              <li>Led financial planning and fund management for <strong>₹30+ lakhs in inflows</strong>, optimizing budgeting, cost efficiency, and reinvestment strategy, increasing <strong>18% YoY Profit</strong></li>
+            </ul>
+          </div>
+          <div class="entry-right">
+            <span class="entry-location">Pune</span>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period">Jul '24</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Social Media Marketing Intern, WYLD</strong></p>
+            <ul class="bullets">
+              <li>Conducted comprehensive market and competitor analyses, identifying key industry trends</li>
+              <li>Provided actionable insights from performance tracking, contributing to the optimization of posting schedules</li>
+            </ul>
+          </div>
+          <div class="entry-right">
+            <span class="entry-location">Remote</span>
+          </div>
+        </div>
+
+        <div class="entry entry-last">
+          <div class="entry-left">
+            <span class="entry-period">Apr '24 –<br/>Jul '24</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Founder's Office Intern, Amar Paint House</strong></p>
+            <ul class="bullets">
+              <li>Assisted in financial record-keeping, prepared <strong>500+ invoices</strong> and contributed in process optimization, improving cash flow tracking, and reducing manual dependencies</li>
+              <li>Managed daily operations and inventory workflows across procurement, vendor coordination, clients and logistics to maintain smooth business functioning</li>
+            </ul>
+          </div>
+          <div class="entry-right">
+            <span class="entry-location">Pune</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         EXTRA SECTIONS (Case Comps, NSS, Projects, Personal)
+    ══════════════════════════════════════════ -->
+    <section class="resume-section" id="extra">
+      <h2 class="section-title visually-hidden">Additional</h2>
+      <div class="section-body">
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period entry-label">Case<br/>Competitions<br/>2025</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Monopoly: M&amp;A Simulation — 1st Place</strong><br/><strong>Ashoka University</strong></p>
+            <ul class="bullets">
+              <li>Won a National Level Case Competition competing against <strong>94 teams</strong> across the country</li>
+            </ul>
+          </div>
+          <div class="entry-right"></div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period entry-label">Volunteering<br/>2023–25</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>National Service Scheme (NSS)</strong></p>
+            <ul class="bullets">
+              <li>Volunteer &amp; Leader at Community Service camps, impacting and educating <strong>100+ students</strong> in Remote Villages</li>
+            </ul>
+          </div>
+          <div class="entry-right"></div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period entry-label">Live Project<br/>2024</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>Parallel Universe RP</strong><br/>Co-Founder</p>
+            <ul class="bullets">
+              <li>Developed and maintained a GTA RP server with custom scripts, managing the member player base and moderating operations</li>
+              <li>Built community engagement flows using AI bots, APIs, commands, and Discord integrations</li>
+            </ul>
+          </div>
+          <div class="entry-right"></div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-left">
+            <span class="entry-period entry-label">Freelance<br/>2021</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-org"><strong>PC Building &amp; Repair</strong></p>
+            <ul class="bullets">
+              <li>Built and optimized custom PCs for personal and client use, focusing on performance and cost-efficiency</li>
+            </ul>
+          </div>
+          <div class="entry-right"></div>
+        </div>
+
+        <div class="entry entry-last">
+          <div class="entry-left">
+            <span class="entry-period entry-label">Personal</span>
+          </div>
+          <div class="entry-mid">
+            <p class="entry-detail personal-line">Tally ERP &nbsp;|&nbsp; Odoo ERP &nbsp;|&nbsp; Financial Statement Analysis &nbsp;|&nbsp; Computer Hardware &amp; AI &nbsp;|&nbsp; Swimming &nbsp;|&nbsp; Investing &nbsp;|&nbsp; Travelling</p>
+          </div>
+          <div class="entry-right"></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
 </body>
 </html>
